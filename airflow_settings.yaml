@@ -6,7 +6,6 @@ airflow:
       conn_port: 27017
       conn_login: airflow
       conn_password: airflow
-      conn_extra: '{"srv": false}'
+      conn_extra: '{"srv": false, "authSource": "admin"}'
   pools: []
   variables: []
-
