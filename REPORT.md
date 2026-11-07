@@ -51,6 +51,10 @@ extract >> transform >> load
 - `tests/test_dag_integrity.py` validates importability, the three required
   tasks, and their dependency order when run inside the Astro Airflow
   environment.
+- `astro dev run dags test currency_exchange_etl 2026-11-07` completed
+  successfully with all three tasks green.
+- Mongo Express confirmed three documents in
+  `currency_db.exchange_rates` after the successful run.
 
 To capture runtime screenshots for submission:
 
