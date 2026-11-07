@@ -1,0 +1,5 @@
+.astro
+.env
+__pycache__
+*.pyc
+

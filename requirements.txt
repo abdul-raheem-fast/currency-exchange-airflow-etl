@@ -1,0 +1,6 @@
+apache-airflow-providers-mongo==4.2.3
+requests==2.32.3
+pymongo==4.12.1
+
+
+astro-run-dag # This package is needed for the astro run command. It will be removed before a deploy
